@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 export const dynamic = "force-dynamic";
 
-const WEATHER_API_KEY = process.env.WEATHER_API_KEY;
+const WEATHER_API_KEY = process.env.API_KEY;
 
 export async function GET(request:Request): Promise<NextResponse>{
     const {searchParams} = new URL(request.url);
