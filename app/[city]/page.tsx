@@ -7,7 +7,7 @@ import styled from "styled-components";
 import {Weather} from "@/interfaces/weather";
 
 const WeatherContentWrapper = styled.main`
-    width:80vw;
+    width: 80vw;
     margin: auto;
     background-color: aquamarine;
 `

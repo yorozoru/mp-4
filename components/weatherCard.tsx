@@ -5,7 +5,7 @@ const WeatherCardWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1 rem;
+    padding: 1rem;
     border: 1px solid black;
     margin: 1rem;
     width: 200px;
